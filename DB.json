@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "username": "Mridu",
+      "email": "mridu@gmail.com",
+      "password": "1234",
+      "phone": "123456890",
+      "photo": "mypic.jpg",
+      "address": "Assam",
+      "id": 1
+    },
+    {
+      "username": "Manish Kumar",
+      "phone": "8931812608",
+      "address": "Balia,Uttar Pradesh",
+      "email": "manish@gmail.com",
+      "password": "Aa1@",
+      "photo": "manish.jpeg",
+      "id": 2
+    },
+    {
+      "username": "Appu Kanan",
+      "phone": "9633129512",
+      "address": "Kerala,India",
+      "email": "appu@gmail.com",
+      "password": "Appu1@",
+      "photo": "Appu2.jpeg",
+      "id": 3
+    },
+    {
+      "username": "Chandan",
+      "phone": "9880578931",
+      "address": "Bengaluru,Karnatka",
+      "email": "Chandan@gmail.com",
+      "password": "Aa1@",
+      "photo": "Chandan.jpeg",
+      "id": 4
+    }
+  ],
+
+  "Timing": [
+    {
+      "username": "Mridu",
+      "password": "1234",
+      "logintime": "",
+      "id": 1
+    }
+  ]
+}

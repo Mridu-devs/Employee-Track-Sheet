@@ -4,6 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
+/src/Components/Exp.js
+/src/Components/Exp2.jsx
+/src/Components/Exp3.jsx
+/src/Components/Manish.jsx
+/src/Wiki.jsx
 
 # testing
 /coverage

@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*-----------Login---------*/
+.LoginMainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.LoginContainer1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.LoginInputFields{
+    height: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*---NavBar----------------------*/
+
+.navContainer{
+    background-color: dodgerblue;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    /* letter-spacing: 2px; */
+}
+.navlinks{
+    text-decoration: none;
+    color: white;
+}
+
+/*----Tracksheet------*/
+.Tracksheet-main-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+    align-items: center;
+}
+.tInputContainers{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 20px;
+}
+#modalbox{
+    background-color:rgb(189, 194, 198,0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+
+}
+#modalbox-content{
+    width: 200px;
+    height: 100px;
+    /* margin: 300px 100px; */
+    border-radius:10px ;
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    padding: 5px 5px 20px 20px;
+    background-color: aquamarine;
+}
+.mCancelButton-container{
+    display: flex;
+    justify-content: flex-end;
+}
+#mCancelButton{
+    width: 20px;
+}
+
+.btn-style{
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(12, 111, 209);
+    font-weight: 400;
+}
+#punchout{
+    display: none;
 }

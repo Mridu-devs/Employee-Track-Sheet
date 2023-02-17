@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Exp from "./Components/Exp";
+import Exp3 from "./Components/Exp3";
+import Login from "./Components/Login";
+import Manish from "./Components/Manish";
+import Navbar from "./Components/Navbar";
+import Tracksheet from "./Components/Tracksheet";
+import Search from "./Components/Wiki";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/tracksheet" element={<Tracksheet />} />
+        <Route path="/exp" element={<Exp />} />
+        <Route path="/exp3" element={<Exp3 />} />
+        <Route path="/manish" element={<Manish />} />
+        <Route path="/wiki" element={<Search />} />
+      </Routes>
+    </>
   );
 }
 
